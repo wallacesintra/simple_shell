@@ -1,5 +1,5 @@
-#ifndef _SHELL_H_
-#define _SHELL_H_
+#ifndef _MAIN_H_
+#define _MAIN_H_
 
 #include <stdio.h>
 #include <errno.h>
@@ -12,4 +12,7 @@
 #include <fcntl.h>
 #include <string.h>
 
+void shellprint(const char *string);
 
+
+#endif
