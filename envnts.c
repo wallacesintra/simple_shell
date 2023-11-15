@@ -12,7 +12,7 @@ void printEnvironment(void)
 
 	for (env = __environ; *env != 0; env++)
 	{
-		write(STDOUT_FILENO, *env, strlen(*env));
+		write(STDOUT_FILENO, *env, _strlength(*env));
 		write(STDOUT_FILENO, "\n", 1);
 	}
 }

@@ -14,6 +14,7 @@ void readInput(char **input, size_t *bufsize);
 void executeCommand(char **tokens);
 void printEnvironment(void);
 void process_input(char *input, const char *delim);
+size_t _strlength(char *str);
 int _stringcmp(char *str1, char *str2);
 
 #endif
