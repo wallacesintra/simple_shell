@@ -9,6 +9,7 @@
 #include <sys/wait.h>
 
 #define PATH_MAX 1024
+extern char **environ;
 
 void readInput(char **input, size_t *bufsize);
 void executeCommand(char **tokens);
