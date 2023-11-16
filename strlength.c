@@ -1,16 +1,16 @@
 #include "shell.h"
 
 /**
- * _strlength - function that return the length
+ * _strlength-function that return the length
  * of a string
  * @str: string
  *
- * return: length of a string
+ * Return: no. of characters
  */
 
-size_t _strlength(char *str)
+int _strlength(char *str)
 {
-	size_t length = 0;
+	int length = 0;
 
 	while (str[length] != '\0')
 	{

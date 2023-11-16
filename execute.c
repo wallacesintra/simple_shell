@@ -9,7 +9,7 @@
 
 void executeCommand(char **tokens)
 {
-	if (execve(tokens[0], tokens, __environ) == -1)
+	if (execve(tokens[0], tokens, environ) == -1)
 	{
 		perror(tokens[0]);
 	}
